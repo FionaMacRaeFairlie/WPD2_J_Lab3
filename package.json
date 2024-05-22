@@ -1,23 +1,16 @@
 {
-  "name": "wad2lab5",
+  "name": "wpd2jlab3",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/FionaMacRaeFairlie/WAD2Lab5.git"
-  },
   "author": "Fiona Fairlie",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/FionaMacRaeFairlie/WAD2Lab5/issues"
-  },
-  "homepage": "https://github.com/FionaMacRaeFairlie/WAD2Lab5#readme",
   "dependencies": {
     "express": "^4.17.2",
+    "gray-nedb": "^1.8.3",
     "path": "^0.12.7"
   }
 }
