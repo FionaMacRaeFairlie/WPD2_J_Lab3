@@ -14,6 +14,7 @@ exports.new_entry = function(req, res) {
     res.send('<h1>Not yet implemented: show a new entry page.</h1>');
 }
 
+
 exports.peters_entries = function(req, res) {
     res.send('<h1>Processing Peter\'s Entries, see terminal</h1>');
    db.getPetersEntries();
