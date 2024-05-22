@@ -62,8 +62,7 @@ class GuestBook {
                  }
             })
         })
-    }
-      
+    }    
 }
 //make the module visible outside
 module.exports = GuestBook;
