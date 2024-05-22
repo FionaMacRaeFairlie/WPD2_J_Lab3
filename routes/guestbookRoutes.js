@@ -12,7 +12,7 @@ router.get('/new', controller.new_entry);
 router.get("/about", function (req, res) {
   res.sendFile(path.join(public, "about.html"));
 });
-router.get('/peter', controller.peters_entries);
+router.get('/peter', controller.peters_entries);  
 router.use(function (req, res) {
   res.status(404);
   res.type("text/plain");
